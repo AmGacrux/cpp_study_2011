@@ -1,0 +1,18 @@
+#inlcude <iostream>
+using namespce std;
+
+int main() {
+  int income;
+  double time, period;
+  cout << "時給(yen)       : " << flush;
+  cin >> income;
+  
+  cout << "労働時間(hour)  : " << flush;
+  cin >> time;
+
+  cout << "就労期間(month) : " << flush;
+  cin >> period;
+
+  cout << period << " ヶ月間毎日 " << time << " 時間働くと、"
+       << endl   <<  income * time * period << " 円もらえます。" << endl;
+}

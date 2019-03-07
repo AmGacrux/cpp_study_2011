@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+// グローバル名前空間の利用
+void Foo();
+
+// ネストされた名前空間の利用
+namespace A {
+  namespace a {
+    void Foo();
+  }
+}
+
+namespace Name_A_a = A::a;
+
+namespace B {
+  void Foo();
+}
+
+void Foo() {
+  cout << "Foo" << endl;
+}
+
+int main() {
+  
+}

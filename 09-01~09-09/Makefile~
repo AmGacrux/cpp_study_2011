@@ -1,0 +1,8 @@
+Template2: Template2.cpp
+	g++ -o Template2 Template2.cpp
+
+Template1b: Template1b.cpp
+	g++ -o Template1b Template1b.cpp
+
+Template1: Template1.cpp
+	g++ -o Template1 Template1.cpp

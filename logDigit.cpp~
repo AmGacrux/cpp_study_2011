@@ -1,0 +1,14 @@
+// 対数の桁を調べる
+#include <iostream>
+#include <math>
+using namespace std;
+
+int calcAns(int a, int r);
+
+int main() {
+  int a, r;
+  char* str[];
+  
+  cout << "整数の冪乗を a^r の形式で入力してください > " << flush;
+  cin >> str;
+}

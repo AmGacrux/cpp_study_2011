@@ -1,0 +1,65 @@
+New2: New2.cpp
+	g++ -o New2 New2.cpp
+
+New1b: New1b.cpp
+	g++ -o New1b New1b.cpp
+
+New1: New1.cpp
+	g++ -o New1 New1.cpp
+
+Escape1: Escape1.cpp
+	g++ -o Escape1 Escape1.cpp
+
+Enum1b: Enum1b.cpp
+	g++ -o Enum1b Enum1b.cpp
+
+Redef1: Redef1.cpp Redef1.h
+	g++ -o Redef1 Redef1.cpp
+
+Internal: Internal1.o Internal2.o
+	g++ -o Internal Internal1.o Internal2.o
+
+Internal1: Internal1.cpp
+	g++ -o Internal1.o
+
+Internal2: Internal2.cpp
+	g++ -o Internal2.o
+
+Extern: Extern1.o Extern2.o
+	g++ -o Extern Extern1.o Extern2.o
+
+Extern1: Extern1.cpp
+	g++ -o Extern1.o
+
+Extern2: Extern2.cpp
+	g++ -o Extern2.o
+
+Scope2: Scope2.cpp
+	g++ -o Scope2 Scope2.cpp
+
+Scope1: Scope1.cpp
+	g++ -o Scope1 Scope1.cpp
+
+Static1: Static1.cpp
+	g++ -o Static1 Static1.cpp
+
+Default1: Default1.cpp
+	g++ -o Default1 Default1.cpp
+
+CondOp1: CondOp1.cpp 
+	g++ -o CondOp1 CondOp1.cpp
+
+CondOp1b: CondOp1b.cpp 
+	g++ -o CondOp1b CondOp1b.cpp
+
+Enum1: Enum1.cpp
+	g++ -o Enum1 Enum1.cpp
+
+Struct1b: Struct1b.cpp
+	g++ -o Struct1b Struct1b.cpp
+
+Struct1: Struct1.cpp
+	g++ -o Struct1 Struct1.cpp
+
+Array4: Array4.cpp
+	g++ -o Array4 Array4.cpp

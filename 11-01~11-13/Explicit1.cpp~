@@ -1,0 +1,15 @@
+#include "IntArray.h"
+#include <iostream>
+using namespace std;
+
+void Show(const IntArray& array) {
+  cout << array.Size() << endl;
+}
+
+// explicit = 明示的な
+// explicit は IntArray.h 内で使っている
+int main() {
+  Show(5);
+}
+
+// 暗黙のキャストを抑制する場合はコンストラクタ宣言に explicit をつける

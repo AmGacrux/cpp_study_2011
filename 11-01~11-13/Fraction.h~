@@ -1,0 +1,25 @@
+// 分数を表すクラス
+#ifndef FRACTION_H_
+#define FRACTION_H_
+
+class Fraction {
+ public:
+  Fraction(double numer = 0, double denom = 1);
+
+ public:
+  double GetNumer() const; // 分子の取得
+  double GetDenom() const; // 分母の取得
+
+ public:
+  double operator double() const;
+  Fraction operator* (const Fraction& rop) const;
+  Fraction& operator*= (const Fraction& rop);
+  Fraction& operator++ ();    // 前置インクリメント
+  Fraction& operator++ (int); // 後置インクリメント
+
+ private:
+  double m_numer; // 分子
+  double m_denom; // 分母
+};
+
+#endif // #ifndef FRACTION_H_

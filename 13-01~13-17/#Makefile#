@@ -1,0 +1,22 @@
+
+
+VirtualInherit2: VirtualInherit2.cpp 
+	g++ -o VirtualInherit2 VirtualInherit2.cpp 
+
+VirtualInherit1: VirtualInherit1.cpp 
+	g++ -o VirtualInherit1 VirtualInherit1.cpp 
+
+VirtualInherit1b: VirtualInherit1b.cpp 
+	g++ -o VirtualInherit1b VirtualInherit1b.cpp 
+
+MultipleInherit2b: MultipleInherit2b.cpp
+	g++ -o MultipleInherit2b MultipleInherit2b.cpp
+
+MultipleInherit3: MultipleInherit3.cpp
+	g++ -o MultipleInherit3 MultipleInherit3.cpp
+
+MultipleInherit2: MultipleInherit2.cpp
+	g++ -o MultipleInherit2 MultipleInherit2.cpp
+
+MultipleInherit1: MultipleInherit1.cpp
+	g++ -o MultipleInherit1 MultipleInherit1.cpp

@@ -1,0 +1,19 @@
+#include <iostream>
+#include <exception>
+using namespace std;
+
+class Hoge {
+public:
+  Hoge();
+  virtual ~Hoge();
+};
+
+Hoge:: Hoge() { cout <<  "Hoge" << endl; }
+Hoge::~Hoge() { cout << "~Hoge" << endl; }
+
+class Base {
+public:
+  Base();
+  virtual ~Base();
+};
+

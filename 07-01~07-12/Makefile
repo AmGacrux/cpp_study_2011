@@ -1,0 +1,44 @@
+New4: New4.cpp InputStream.cpp ArrayStream.cpp Stream.cpp
+	g++ -o New4 New4.cpp InputStream.cpp ArrayStream.cpp Stream.cpp
+
+New3: New3.cpp ArrayStream.cpp Stream.cpp
+	g++ -o New3 New3.cpp ArrayStream.cpp Stream.cpp
+
+Constructor4: Constructor4.cpp
+	g++ -o Constructor4 Constructor4.cpp
+
+Constructor3: Constructor3.cpp InputStream.cpp Stream.cpp
+	g++ -o Constructor3 Constructor3.cpp InputStream.cpp Stream.cpp
+
+Pure1: Pure1.cpp InputStream.cpp Stream.cpp
+	g++ -o Pure1 Pure1.cpp InputStream.cpp Stream.cpp
+
+Override3: Override3.cpp InputStream.cpp Stream.cpp
+	g++ -o Override3 Override3.cpp InputStream.cpp Stream.cpp
+
+Override2: Override2.cpp InputStream.cpp ArrayStream.cpp Stream.cpp
+	g++ -o Override2 Override2.cpp InputStream.cpp ArrayStream.cpp Stream.cpp
+
+Override1: Override1.cpp InputStream.cpp Stream.cpp
+	g++ -o Override1 Override1.cpp InputStream.cpp Stream.cpp
+
+Upcast2: Upcast2.cpp ArrayStream.cpp InputStream.cpp Stream.cpp
+	g++ -o Upcast2 Upcast2.cpp ArrayStream.cpp InputStream.cpp Stream.cpp
+
+Upcast1: Upcast1.cpp InputStream.cpp Stream.cpp
+	g++ -o Upcast1 Upcast1.cpp InputStream.cpp Stream.cpp
+
+Protected1: Protected1.cpp InputStream.cpp Stream.cpp
+	g++ -o Protected1 Protected1.cpp InputStream.cpp Stream.cpp
+
+Average3: Average3.cpp ArrayStream.cpp Stream.cpp
+	g++ -o Average3 Average3.cpp ArrayStream.cpp Stream.cpp
+
+Average2: Average2.cpp InputStream.cpp Stream.cpp
+	g++ -o Average2 Average2.cpp InputStream.cpp Stream.cpp
+
+Average1: Average1.cpp
+	g++ -o Average1 Average1.cpp
+
+Operator1: Operator1.cpp IntArray.cpp IntArray.h
+	g++ -o Operator1 Operator1.cpp IntArray.cpp IntArray.h
